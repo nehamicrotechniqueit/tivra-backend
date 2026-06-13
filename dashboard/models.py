@@ -9,8 +9,6 @@ class Lead(models.Model):
         ('qualified', 'Qualified'),
         ('converted', 'Converted'),
     ]
-
-    
     
     LEAD_TYPE_CHOICES = [
         ('normal', 'Normal'),
