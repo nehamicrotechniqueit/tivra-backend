@@ -10,6 +10,7 @@ class Lead(models.Model):
         ('converted', 'Converted'),
     ]
     
+    
     LEAD_TYPE_CHOICES = [
         ('normal', 'Normal'),
         ('hot', 'Hot Lead'),
