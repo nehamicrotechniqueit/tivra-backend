@@ -22,5 +22,5 @@ from dashboard.views import DashboardMetricsView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('accounts.urls')),
-    path('api/dashboard/metrics/', DashboardMetricsView.as_view(), name='dashboard_metrics'),
+    path('dashboard/', include('dashboard.urls')),
 ]

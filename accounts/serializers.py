@@ -22,8 +22,6 @@ class RegisterSerializer(serializers.ModelSerializer):
         user = User.objects.create_user(**validated_data)
         return user
 
-from rest_framework import serializers
-from .models import User
 
 
 class UserSerializer(serializers.ModelSerializer):

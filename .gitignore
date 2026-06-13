@@ -1,0 +1,43 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+*.pyo
+*.pyd
+.Python
+
+# Django migrations cache
+**/__pycache__/
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+
+# Next.js
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+
+# NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
